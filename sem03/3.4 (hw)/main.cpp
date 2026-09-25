@@ -31,19 +31,22 @@ int main() {
         arr[i] = n(gen);
     }
 
-    for (auto it = lst.begin(); it != lst.end(); ++it) {     // list — итераторы
+    for (std::list<float>::iterator it = lst.begin();
+         it != lst.end();
+         ++it) {                       // list - итераторы
+
         *it = n(gen);
     }
 
-    for (float& x : v) {     // vector — range-based
+    for (float& x : v) {               // vector - range-based
         x = n(gen);
     }
 
-    for (float& x : d) {        // deque — range-based
+    for (float& x : d) {               // deque - range-based
         x = n(gen);
     }
 
-    for (int i = 0; i < M; i++) {       // array -> vector
+    for (int i = 0; i < M; i++) {      // array -> vector
         arrres[i] = temper_mod<long, float>(arr[i]);
     }
 
@@ -51,17 +54,23 @@ int main() {
         vres.push_back(temper_mod<long, float>(x));
     }
 
-    for (auto it = lst.begin(); it != lst.end(); ++it) {     // list -> deque
-        lstres.push_back(temper_mod<long, float>(*it));
+    for (std::list<float>::iterator it = lst.begin();
+         it != lst.end();
+         ++it) {                        // list -> deque
+
+        lstres.push_back(
+            temper_mod<long, float>(*it)
+        );
     }
 
-    for (int i = 0; i < M; i++) {     // deque -> array
+    for (int i = 0; i < M; i++) {      // deque -> array
         dres[i] = temper_mod<long, float>(d[i]);
     }
+    
     std::vector<std::string> rows;
 
-    auto lstIt = lst.begin();           // для list нельзя использовать [i]
-    auto vresIt = vres.begin();
+    std::list<float>::iterator lstIt = lst.begin();
+    std::list<long>::iterator vresIt = vres.begin();
 
     for (int i = 0; i < M; i++) {
 
@@ -80,10 +89,9 @@ int main() {
 
         rows.push_back(row);
 
-        ++lstIt;            //переходим к следующим элементам list
+        ++lstIt;
         ++vresIt;
     }
-
 
     std::ofstream file("table.md");
 
@@ -92,28 +100,18 @@ int main() {
         return 1;
     }
 
-
-    //шапка таблицы
     file << "| array | array result | vector | vector result | "
             "list | list result | deque | deque result |\n";
 
-
-    //строка, необходимая для Markdown
     file << "|---|---|---|---|---|---|---|---|\n";
 
-
-    //записываем готовые строки
     for (const std::string& row : rows) {
         file << "| " << row << " |\n";
     }
-
 
     file.close();
 
     std::cout << "Таблица записана в файл table.md\n";
 
     return 0;
-}    
-
-
-
+}
