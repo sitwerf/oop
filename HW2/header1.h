@@ -3,13 +3,13 @@
 
 #include <random>
 
-template <typename T1, typename T2>
-T1 temper(T2 x) {
+template <typename T>
+T temper(T x) {
    return (x * 9 / 5 + 32);
 }
 
-template <typename T1, typename T2>
-T1 temper_mod(T2 x) {
+template <typename T>
+T temper_mod(T x) {
         std::random_device rd;
         std:: mt19937 gen(rd());
 

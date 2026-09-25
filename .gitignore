@@ -1,0 +1,10 @@
+# Compiled binaries
+HW2/app
+sem03/3.4 (hw)/program
+*.o
+*.out
+*.exe
+
+# macOS / editor
+.DS_Store
+.vscode/
