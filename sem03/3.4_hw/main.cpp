@@ -7,6 +7,8 @@
 #include "header.h"
 #include <fstream>
 #include <string>
+#include <forward_list>
+
 
 int main() {
     const int M = 12;
@@ -30,11 +32,7 @@ int main() {
     for (int i = 0; i < M; i++) {     // array - классический for
         arr[i] = n(gen);
     }
-
-    for (std::list<float>::iterator it = lst.begin();
-         it != lst.end();
-         ++it) {                       // list - итераторы
-
+    for (std::list<float>::iterator it = lst.begin(); it != lst.end(); ++it) {       // list - итераторы
         *it = n(gen);
     }
 
@@ -54,19 +52,20 @@ int main() {
         vres.push_back(temper_mod<long, float>(x));
     }
 
-    for (std::list<float>::iterator it = lst.begin();
-         it != lst.end();
-         ++it) {                        // list -> deque
+    for (std::list<float>::iterator it = lst.begin(); it != lst.end(); ++it) {     // list -> deque
 
-        lstres.push_back(
-            temper_mod<long, float>(*it)
-        );
+        lstres.push_back(temper_mod<long, float>(*it));
     }
+
+    // std::list<int> liist = {1,2,3,5,7,1,2};
+    // std::list<int>::iterator it = liist.end();
+    // --it;
+
 
     for (int i = 0; i < M; i++) {      // deque -> array
         dres[i] = temper_mod<long, float>(d[i]);
     }
-    
+
     std::vector<std::string> rows;
 
     std::list<float>::iterator lstIt = lst.begin();
@@ -95,15 +94,8 @@ int main() {
 
     std::ofstream file("table.md");
 
-    if (!file.is_open()) {
-        std::cout << "Ошибка открытия файла\n";
-        return 1;
-    }
-
     file << "| array | array result | vector | vector result | "
             "list | list result | deque | deque result |\n";
-
-    file << "|---|---|---|---|---|---|---|---|\n";
 
     for (const std::string& row : rows) {
         file << "| " << row << " |\n";
