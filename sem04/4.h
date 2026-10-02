@@ -16,9 +16,6 @@ int sum10(const std::vector<int>& v);
 
 // 4.2
 int binacc(const std::vector<int>& v);
-
 void finddups(const std::vector<int>& v1, const std::vector<int>& v2);
-
 void dupfor(const std::vector<int>& v1, const std::vector<int>& v2);
-
 void dupalg(const std::vector<int>& v1, const std::vector<int>& v2);
