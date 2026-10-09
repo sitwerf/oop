@@ -1,0 +1,49 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "NormalTemper",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IntKnownValues",
+          "file": "\/Users\/olesaagafonova\/Documents\/C++\/oop\/sem05\/tests\/test.cpp",
+          "line": 5
+        },
+        {
+          "name": "DoubleKnownValues",
+          "file": "\/Users\/olesaagafonova\/Documents\/C++\/oop\/sem05\/tests\/test.cpp",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "name": "ModifiedTemper",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ResultInRange",
+          "file": "\/Users\/olesaagafonova\/Documents\/C++\/oop\/sem05\/tests\/test.cpp",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "name": "FailDemo",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DISABLED_ExpectContinues",
+          "file": "\/Users\/olesaagafonova\/Documents\/C++\/oop\/sem05\/tests\/test.cpp",
+          "line": 29
+        },
+        {
+          "name": "DISABLED_AssertStops",
+          "file": "\/Users\/olesaagafonova\/Documents\/C++\/oop\/sem05\/tests\/test.cpp",
+          "line": 36
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+Start testing: Oct 09 12:11 +07
+----------------------------------------------------------
+1/8 Testing: NormalTemper.IntKnownValues
+1/8 Test: NormalTemper.IntKnownValues
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=NormalTemper.IntKnownValues" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"NormalTemper.IntKnownValues" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NormalTemper.IntKnownValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NormalTemper
+[ RUN      ] NormalTemper.IntKnownValues
+[       OK ] NormalTemper.IntKnownValues (0 ms)
+[----------] 1 test from NormalTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NormalTemper.IntKnownValues" end time: Oct 09 12:11 +07
+"NormalTemper.IntKnownValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: NormalTemper.DoubleKnownValues
+2/8 Test: NormalTemper.DoubleKnownValues
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=NormalTemper.DoubleKnownValues" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"NormalTemper.DoubleKnownValues" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NormalTemper.DoubleKnownValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NormalTemper
+[ RUN      ] NormalTemper.DoubleKnownValues
+[       OK ] NormalTemper.DoubleKnownValues (0 ms)
+[----------] 1 test from NormalTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NormalTemper.DoubleKnownValues" end time: Oct 09 12:11 +07
+"NormalTemper.DoubleKnownValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: NormalTemper.IntVsDouble
+3/8 Test: NormalTemper.IntVsDouble
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=NormalTemper.IntVsDouble" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"NormalTemper.IntVsDouble" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NormalTemper.IntVsDouble
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NormalTemper
+[ RUN      ] NormalTemper.IntVsDouble
+[       OK ] NormalTemper.IntVsDouble (0 ms)
+[----------] 1 test from NormalTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NormalTemper.IntVsDouble" end time: Oct 09 12:11 +07
+"NormalTemper.IntVsDouble" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: ModifiedTemper.IntResultInRange
+4/8 Test: ModifiedTemper.IntResultInRange
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=ModifiedTemper.IntResultInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"ModifiedTemper.IntResultInRange" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ModifiedTemper.IntResultInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ModifiedTemper
+[ RUN      ] ModifiedTemper.IntResultInRange
+[       OK ] ModifiedTemper.IntResultInRange (0 ms)
+[----------] 1 test from ModifiedTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ModifiedTemper.IntResultInRange" end time: Oct 09 12:11 +07
+"ModifiedTemper.IntResultInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: ModifiedTemper.DoubleResultInRange
+5/8 Test: ModifiedTemper.DoubleResultInRange
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=ModifiedTemper.DoubleResultInRange" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"ModifiedTemper.DoubleResultInRange" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ModifiedTemper.DoubleResultInRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ModifiedTemper
+[ RUN      ] ModifiedTemper.DoubleResultInRange
+[       OK ] ModifiedTemper.DoubleResultInRange (0 ms)
+[----------] 1 test from ModifiedTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ModifiedTemper.DoubleResultInRange" end time: Oct 09 12:11 +07
+"ModifiedTemper.DoubleResultInRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: ModifiedTemper.SometimesChanges
+6/8 Test: ModifiedTemper.SometimesChanges
+Command: "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app" "--gtest_filter=ModifiedTemper.SometimesChanges" "--gtest_also_run_disabled_tests"
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"ModifiedTemper.SometimesChanges" start time: Oct 09 12:11 +07
+Output:
+----------------------------------------------------------
+Running main() from /Users/olesaagafonova/Documents/C++/oop/sem05/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ModifiedTemper.SometimesChanges
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ModifiedTemper
+[ RUN      ] ModifiedTemper.SometimesChanges
+[       OK ] ModifiedTemper.SometimesChanges (0 ms)
+[----------] 1 test from ModifiedTemper (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ModifiedTemper.SometimesChanges" end time: Oct 09 12:11 +07
+"ModifiedTemper.SometimesChanges" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: FailDemo.ExpectContinues
+7/8 Test: FailDemo.ExpectContinues
+Command: ""
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"FailDemo.ExpectContinues" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailDemo.ExpectContinues" end time: Oct 09 12:11 +07
+"FailDemo.ExpectContinues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: FailDemo.AssertStops
+8/8 Test: FailDemo.AssertStops
+Command: ""
+Directory: /Users/olesaagafonova/Documents/C++/oop/sem05/build/tests
+"FailDemo.AssertStops" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FailDemo.AssertStops" end time: Oct 09 12:11 +07
+"FailDemo.AssertStops" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 09 12:11 +07

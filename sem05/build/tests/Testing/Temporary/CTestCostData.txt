@@ -1,0 +1,9 @@
+NormalTemper.IntKnownValues 1 0.00523392
+NormalTemper.DoubleKnownValues 1 0.00278804
+NormalTemper.IntVsDouble 1 0.0032335
+ModifiedTemper.IntResultInRange 1 0.00319196
+ModifiedTemper.DoubleResultInRange 1 0.00333508
+ModifiedTemper.SometimesChanges 1 0.00305604
+FailDemo.ExpectContinues 0 0
+FailDemo.AssertStops 0 0
+---

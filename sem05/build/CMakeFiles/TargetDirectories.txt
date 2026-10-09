@@ -1,0 +1,5 @@
+/Users/olesaagafonova/Documents/C++/oop/sem05/build/CMakeFiles/app.dir
+/Users/olesaagafonova/Documents/C++/oop/sem05/build/CMakeFiles/edit_cache.dir
+/Users/olesaagafonova/Documents/C++/oop/sem05/build/CMakeFiles/rebuild_cache.dir
+/Users/olesaagafonova/Documents/C++/oop/sem05/build/lib/CMakeFiles/edit_cache.dir
+/Users/olesaagafonova/Documents/C++/oop/sem05/build/lib/CMakeFiles/rebuild_cache.dir

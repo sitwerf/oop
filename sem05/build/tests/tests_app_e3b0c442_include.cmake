@@ -1,0 +1,5 @@
+if(EXISTS "/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app_e3b0c442_tests.cmake")
+  include("/Users/olesaagafonova/Documents/C++/oop/sem05/build/tests/tests_app_e3b0c442_tests.cmake")
+else()
+  add_test(tests_app_NOT_BUILT tests_app_NOT_BUILT)
+endif()
