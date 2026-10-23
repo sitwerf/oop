@@ -41,7 +41,7 @@ private:
     static std::string normalize(const std::string& text);
 };
 
-// ---------- определения вне класса ----------
+// определения вне класса 
 
 template <typename T>
 const std::string TextDocumentT<T>::CLASS_NAME = "TextDocumentT";
