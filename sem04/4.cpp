@@ -84,7 +84,7 @@ int sum10(const std::vector<int>& v) {
 
 //4.2
 int binacc(const std::vector<int>& v) {
-    return std::accumulate(v.begin(), v.end(), 0, [](int sum, int x) {
+    return std::accumulate(v.begin(), v.end(), -100, [](int sum, int x) {
             if (std::abs(x) > 22) return sum + x;
             return sum;
         }

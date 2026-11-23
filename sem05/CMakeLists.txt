@@ -3,10 +3,9 @@ project(test_proj VERSION 0.0.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# переключатель тестов (задание 5.IV)
+# переключатель тестов (5.4)
 option(BUILD_TESTS "Build unit tests" ON)
 
-# обработаем директорию с нашими тестами
 if(BUILD_TESTS)
     add_subdirectory(tests)
 endif()

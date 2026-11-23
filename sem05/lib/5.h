@@ -2,7 +2,6 @@
 #include <random>
 
 namespace normal {
-    // перевод Цельсия в Фаренгейты
     // T1 — тип результата, T2 — тип аргумента
     template <typename T1, typename T2>
     T1 temper(T2 x) {

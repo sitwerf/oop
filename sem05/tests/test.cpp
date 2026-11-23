@@ -25,14 +25,14 @@ TEST(ModifiedTemper, ResultInRange) {
     }
 }
 
-// EXPECT после ошибки тест идёт дальше
+// EXPECT
 TEST(FailDemo, DISABLED_ExpectContinues) {
     EXPECT_EQ(normal::temper<int>(100), 200);   // неверно (на самом деле 212)
     EXPECT_EQ(normal::temper<int>(0), 0);       // неверно (на самом деле 32)
     std::cout << ">>> ExpectContinues: дошли до конца теста" << std::endl;
 }
 
-// ASSERT после ошибки тест сразу останавливается
+// ASSERT
 TEST(FailDemo, DISABLED_AssertStops) {
     ASSERT_EQ(normal::temper<int>(100), 200);   // неверно -> выход из теста
     EXPECT_EQ(normal::temper<int>(0), 0);       // не выполнится
