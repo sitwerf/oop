@@ -1,0 +1,9 @@
+<map id="TextDocument" name="TextDocument">
+<area shape="rect" id="Node000001" title="plain text document." alt="" coords="29,140,146,227"/>
+<area shape="rect" id="Node000003" href="$class_rtf_document.html" title="text document with one style." alt="" coords="33,275,143,361"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,239,90,275,85,274,87,244"/>
+<area shape="rect" id="Node000002" href="$class_file.html" title="abstract file with size output." alt="" coords="41,5,135,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,104,90,140,85,140,88,110"/>
+<area shape="rect" id="Node000004" href="$class_styled_image_document.html" title="rtf document with an image." alt="" coords="5,409,170,496"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,374,90,410,85,409,87,379"/>
+</map>

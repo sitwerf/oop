@@ -1,0 +1,5 @@
+<map id="TextDocument" name="TextDocument">
+<area shape="rect" id="Node000001" title="plain text document." alt="" coords="5,140,122,227"/>
+<area shape="rect" id="Node000002" href="$class_file.html" title="abstract file with size output." alt="" coords="17,5,111,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,105,66,141,61,140,63,110"/>
+</map>

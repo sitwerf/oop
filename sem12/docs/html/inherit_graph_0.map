@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_file.html" title="abstract file with size output." alt="" coords="5,5,48,31"/>
+<area shape="rect" id="Node000001" href="$class_text_document.html" title="plain text document." alt="" coords="96,5,202,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="63,16,98,18,92,19,63,21"/>
+<area shape="rect" id="Node000002" href="$class_rtf_document.html" title="text document with one style." alt="" coords="250,5,349,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="217,16,252,18,247,18,218,21"/>
+<area shape="rect" id="Node000003" href="$class_styled_image_document.html" title="rtf document with an image." alt="" coords="397,5,552,31"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="365,16,400,18,394,18,365,21"/>
+</map>

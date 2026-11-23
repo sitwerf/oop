@@ -1,0 +1,7 @@
+<map id="RtfDocument" name="RtfDocument">
+<area shape="rect" id="Node000001" title="text document with one style." alt="" coords="9,275,119,361"/>
+<area shape="rect" id="Node000002" href="$class_text_document.html" title="plain text document." alt="" coords="5,140,122,227"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,239,66,275,61,274,63,244"/>
+<area shape="rect" id="Node000003" href="$class_file.html" title="abstract file with size output." alt="" coords="17,5,111,92"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="64,104,66,140,61,140,63,110"/>
+</map>
